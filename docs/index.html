@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skipwork — Support</title>
+  <meta name="description" content="Support and contact for Skipwork, a local-first data toolkit for merging and reviewing spreadsheets on macOS and iOS.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Skipwork</h1>
+      <nav>
+        <a href="index.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </header>
+
+    <main>
+      <p class="lead">A local-first data toolkit. Import, merge, and review spreadsheets entirely on your device — nothing is sent to a server.</p>
+
+      <h2>What it does</h2>
+      <ul class="feature-list">
+        <li><strong>Table merger</strong> — join two CSV, XLSX, or JSON tables on matching fields and export the result.</li>
+        <li><strong>Match review</strong> — step through subjects and pick the correct match for each.</li>
+        <li><strong>Flexible import</strong> — CSV, XLSX, and JSON/JSONL through a guided import wizard.</li>
+        <li><strong>Local-first</strong> — your files stay on your device; nothing is uploaded.</li>
+        <li><strong>App lock</strong> — optional biometric or PIN lock with auto-lock after backgrounding.</li>
+        <li><strong>Handoff &amp; export</strong> — continue a session across devices and save results as XLSX.</li>
+      </ul>
+
+      <h2>Need help?</h2>
+      <p>Send a message below or email <a href="mailto:skipworkapp@gmail.com">skipworkapp@gmail.com</a> directly. We'll usually reply within a few days.</p>
+
+      <form class="contact" action="https://formspree.io/f/mbdqpbje" method="POST">
+        <input type="hidden" name="_subject" value="[Skipwork support]">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <div class="gotcha" aria-hidden="true">
+          <label for="_gotcha">Leave this field empty</label>
+          <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+        </div>
+
+        <button type="submit">Send message</button>
+      </form>
+    </main>
+
+    <footer>
+      <a href="privacy.html">Privacy Policy</a>·
+      <a href="terms.html">Terms &amp; Conditions</a>·
+      <a href="mailto:skipworkapp@gmail.com">Contact</a>
+      <p>&copy; Chris Chu</p>
+    </footer>
+  </div>
+</body>
+</html>
